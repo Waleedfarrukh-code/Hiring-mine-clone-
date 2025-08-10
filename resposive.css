@@ -1,0 +1,222 @@
+@media (max-width:1300px) {
+    .job-opening .job-cards-content {
+        padding: 80px 50px 30px 50px;
+
+    }
+
+    .countless-career-options-section {
+        padding: 20px 50px 100px 50px;
+    }
+}
+
+@media (max-width:900px) {
+    .nav-content .nav-links {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        background: rgb(41 41 48);
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+        width: 250px;
+        z-index: 99;
+    }
+
+    #humburger {
+        display: inline-block;
+    }
+
+    .nav-logo-small-screen {
+        display: block;
+    }
+
+    .nav-links.show {
+        display: block;
+    }
+
+    .nav-links-list {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .dark-mode-and-light-mode-icon {
+        display: flex;
+        gap: 10px;
+    }
+
+    .navbar .nav-content {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+
+    .job-opening .job-cards-content {
+        padding: 80px 40px 30px 40px;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .hired-steps {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        padding: 50px 50px;
+    }
+
+
+    .dream-job-section {
+        padding: 100px 40px;
+    }
+
+    .countless-career-options-section .countless-career-options-content {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+
+    .why-choose-us-section {
+        display: none;
+    }
+}
+
+@media (max-width:768px) {
+    .sucess-img img {
+        width: 100%;
+    }
+
+    .hired-steps {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 50px 50px;
+    }
+
+    .countless-career-options-section .countless-career-options-content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer {
+        top: 330px;
+    }
+
+}
+
+@media (max-width:727px) {
+    .sucess-img img {
+        width: 100%;
+        padding: 315px 0 50px 0;
+    }
+
+    .footer-content {
+        flex-direction: column;
+    }
+}
+
+@media (max-width:600px) {
+    .hero-content .hero-text h1 {
+        font-size: 25px;
+    }
+
+    .sucess-img img {
+        padding: 100px 0 50px 0;
+    }
+
+    .hero-search-input {
+        width: 400px;
+    }
+
+    .job-opening .job-cards-content {
+        padding: 80px 40px 30px 40px;
+        grid-template-columns: 1fr;
+    }
+
+    .hired-steps {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width:500px) {
+    .hired-steps-section .hired-steps-heading h2 {
+        font-size: 28px;
+    }
+
+    .job-opening-section .job-opening h2 {
+        font-size: 28px;
+        padding: 0 8px;
+    }
+
+    .dream-job-section {
+        padding: 100px 20px 50px 20px;
+    }
+
+    .dream-job-section .dream-job-content {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .dream-job-section .dream-job-content h2 {
+        font-size: 30px;
+        color: white;
+    }
+
+    .dream-job-section .dream-job-content h2 span {
+        color: rgb(77, 59, 219);
+    }
+
+    .dream-job-section .dream-job-content p {
+        font-size: 18px;
+        color: rgb(255, 255, 255);
+        max-width: 810px;
+        margin: 0 auto;
+    }
+
+    .dream-job-section .dream-job-content .dream-job-image .dream-job-img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .countless-career-options-section .countless-career-options-content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .countless-career-options-section h2 {
+        font-size: 25px;
+    }
+
+    .countless-career-options-section {
+        padding: 0px 30px 100px 30px;
+    }
+
+    .footer {
+        top: 1000px;
+    }
+
+    .footer-links .links {
+        padding: 0px 10px;
+        gap: 20px;
+    }
+
+    .footer-content {
+        padding: 40px 30px 50px;
+    }
+
+    .footer-links .links a i {
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .footer-links h2 {
+        padding: 0px 20px;
+    }
+}
+
+@media (max-width:400px) {
+    .hero-search-input {
+        width: 300px;
+    }
+
+    .sucess-img img {
+        padding: 180px 0 50px 0;
+    }
+}
